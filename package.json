@@ -4,7 +4,7 @@
   "description": "Convert any DMSt ranking into JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Turbo87/x-ray-dmst-ranking/issues"
   },
-  "homepage": "https://github.com/Turbo87/x-ray-dmst-ranking#readme"
+  "homepage": "https://github.com/Turbo87/x-ray-dmst-ranking#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
